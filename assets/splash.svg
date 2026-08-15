@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2732" height="2732" viewBox="0 0 2732 2732">
+  <rect width="2732" height="2732" fill="#174c36"/>
+  <g transform="translate(1006 790) scale(11.25)">
+    <rect width="64" height="64" rx="18" fill="#174c36" stroke="#ffffff" stroke-opacity=".12"/>
+    <path d="M17 35c0-10 7-18 15-24 0 14 8 18 8 29 0 8-5 14-12 14-6 0-11-4-11-10 0-5 3-9 8-13-1 7 1 12 6 15" fill="#f49a31"/>
+    <path d="M39 14c8 2 12 8 10 17-7-1-12-5-13-12 4 4 7 6 11 7" fill="#83ba5b"/>
+    <path d="M23 46c4 4 11 4 16-1" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+  </g>
+  <text x="1366" y="1640" text-anchor="middle" font-family="Arial,sans-serif" font-size="150" font-weight="700" fill="#ffffff">Hydra Agro</text>
+  <text x="1366" y="1750" text-anchor="middle" font-family="Arial,sans-serif" font-size="55" fill="#dce9e1">Tecnologia que cuida do campo.</text>
+</svg>

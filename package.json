@@ -1,0 +1,26 @@
+{
+  "name": "hydra-agro",
+  "version": "5.4.2",
+  "private": true,
+  "description": "Aplicativo mobile social para gestão de água, animais e tecnologia no campo",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --check server.js && node --check public/app.js && node --check scripts/configure-android.js && node scripts/integration-test.js",
+    "assets:generate": "node scripts/generate-native-assets.js",
+    "android:configure": "node scripts/configure-android.js",
+    "android:add": "npx cap add android",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/share": "^8.0.0",
+    "@capacitor/splash-screen": "^8.0.0",
+    "@capgo/capacitor-nfc": "^8.2.3"
+  },
+  "engines": { "node": ">=22.5.0" }
+}

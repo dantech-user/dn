@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b5136">
+  <meta name="description" content="Hydra Agro — tecnologia que cuida do campo.">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Hydra Agro</title>
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true">
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11.2 12 4l9 7.2v8.3A1.5 1.5 0 0 1 19.5 21h-15A1.5 1.5 0 0 1 3 19.5z"/><path d="M9 21v-7h6v7"/></symbol>
+    <symbol id="i-cow" viewBox="0 0 24 24"><path d="M7.5 8.5C6.1 6.5 4.5 6 3 6c.3 2.2 1.2 3.8 3.2 4.5M16.5 8.5C17.9 6.5 19.5 6 21 6c-.3 2.2-1.2 3.8-3.2 4.5"/><path d="M6 9c0-3 2.7-5 6-5s6 2 6 5v5.5c0 3.2-2.7 5.5-6 5.5s-6-2.3-6-5.5zM9 11h.01M15 11h.01M9.5 16c1.7 1 3.3 1 5 0"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 2S5 10 5 15a7 7 0 0 0 14 0c0-5-7-13-7-13z"/><path d="M9 16c.5 1.2 1.5 2 3 2"/></symbol>
+    <symbol id="i-drone" viewBox="0 0 24 24"><path d="M8 8h8l2 5H6zM12 8V5M9 13v3h6v-3M4 8h4M16 8h4M2 6h4M18 6h4M4 6v2M20 6v2"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.5-4.3 2.6-6.3 6.5-6.3s6 2 6.5 6.3M16 5.5a3.5 3.5 0 0 1 0 6.8M17 14c2.7.6 4.1 2.5 4.5 6"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M7 4h10v4c0 4-2 7-5 7s-5-3-5-7zM9 20h6M12 15v5M7 6H3c0 4 1.5 6 5 6M17 6h4c0 4-1.5 6-5 6"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c.7-5 3.3-7 8-7s7.3 2 8 7"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-filter" viewBox="0 0 24 24"><path d="M4 6h16M7 12h10M10 18h4"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 5.8c-2.3-2.4-6.1-1.8-8.8 1.3C9.3 4 5.5 3.4 3.2 5.8c-2.4 2.5-1.2 6 1 8.2 2.2 2.5 5 4.8 7.8 7 2.8-2.2 5.6-4.5 7.8-7 2.2-2.2 3.4-5.7 1-8.2z"/></symbol>
+    <symbol id="i-comment" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-9 8.5c-1.6 0-3-.3-4.3-1L3 21l1.5-4.7A8.5 8.5 0 1 1 21 11.5z"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></symbol>
+    <symbol id="i-location" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 10v7M12 7h.01"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M14 7l5 5-5 5"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s4-6 10-6 10 6 10 6-4 6-10 6S2 12 2 12z"/><circle cx="12" cy="12" r="2.5"/></symbol>
+    <symbol id="i-nfc" viewBox="0 0 24 24"><path d="M7 8.5c2 2 2 5 0 7M4 5.5c4 3.5 4 9.5 0 13M11 10.5c.8.8.8 2.2 0 3M15 7l5 5-5 5z"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M20 4C11 4 5 8 5 14c0 3 2 5 5 5 6 0 10-6 10-15zM4 21c3-6 7-9 12-12"/></symbol>
+    <symbol id="i-clipboard" viewBox="0 0 24 24"><path d="M9 5H5v16h14V5h-4M9 3h6v4H9zM8 12h8M8 16h6"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19 12a7 7 0 0 0-.1-1l2-1.6-2-3.4-2.4 1a7 7 0 0 0-1.7-1L14.5 3h-5L9 6a7 7 0 0 0-1.7 1L5 6 3 9.4 5 11a7 7 0 0 0 0 2l-2 1.6L5 18l2.3-1a7 7 0 0 0 1.7 1l.5 3h5l.5-3a7 7 0 0 0 1.7-1l2.3 1 2-3.4-2-1.6a7 7 0 0 0 0-1z"/></symbol>
+    <symbol id="i-logout" viewBox="0 0 24 24"><path d="M14 8V4H4v16h10v-4M10 12h11M18 9l3 3-3 3"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M4 7h4l1.5-2h5L16 7h4v13H4z"/><circle cx="12" cy="13" r="4"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="m8.2 10.8 7.6-4.6M8.2 13.2l7.6 4.6"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m4 20 4.4-1 10.8-10.8-3.4-3.4L5 15.6zM14.5 6.1l3.4 3.4"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 3h6l1 4H8zM7 7l1 14h8l1-14M10 11v6M14 11v6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3h4l2 5-3 2c1.5 3 3 4.5 6 6l2-3 5 2v4c0 1-1 2-2 2C10 20 4 14 3 5c0-1 1-2 2-2z"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 15.5A8.5 8.5 0 0 1 8.5 4 8.7 8.7 0 1 0 20 15.5z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 20 6v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6z"/><path d="m8.5 12 2.3 2.3 4.8-5"/></symbol>
+    <symbol id="i-megaphone" viewBox="0 0 24 24"><path d="M4 10v4l11 4V6zM15 9c2 0 4-1 5-2v10c-1-1-3-2-5-2M6 15l1 5h4l-2-4"/></symbol>
+  </svg>
+
+  <section id="splash" class="splash-screen">
+    <div class="auth-glow"></div><div class="splash-stage"><div class="splash-mark"><i class="spore"></i><i class="spore"></i><i class="spore"></i><svg viewBox="0 0 64 64" role="img" aria-label="Hydra Agro"><g class="splash-mark-inner"><path class="leaf-a" d="M17 35c0-10 7-18 15-24 0 14 8 18 8 29 0 8-5 14-12 14-6 0-11-4-11-10 0-5 3-9 8-13-1 7 1 12 6 15" fill="#f49a31"/><path class="leaf-b" d="M39 14c8 2 12 8 10 17-7-1-12-5-13-12 4 4 7 6 11 7" fill="#83ba5b"/><path class="stem" d="M23 46c4 4 11 4 16-1" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/></g></svg></div><div class="splash-loading"><i></i></div></div>
+  </section>
+
+  <section id="authView" class="auth-screen hidden">
+    <div class="auth-glow auth-glow-a"></div><div class="auth-glow auth-glow-b"></div><div class="auth-particles" aria-hidden="true"></div>
+    <article class="auth-card">
+      <div class="auth-brand"><img src="/logo.svg" alt="Hydra Agro"></div>
+      <div id="loginPane" class="auth-flow">
+        <div id="loginEmailStep" class="auth-step"><h1>Entrar</h1><p>Use sua conta para continuar</p><form id="loginEmailForm"><label>E-mail<input type="email" name="email" placeholder="voce@email.com" autocomplete="email" required></label><div class="auth-error"></div><div class="auth-actions"><button type="button" class="auth-text" data-auth-help>Ajuda</button><button class="auth-primary">Avançar</button></div></form><p class="auth-switch-line">Não tem conta? <button data-auth="register">Criar conta</button></p></div>
+        <div id="loginPasswordStep" class="auth-step hidden"><h1>Digite sua senha</h1><button class="identity-chip" type="button" id="loginIdentity"><b></b><span></span><svg><use href="#i-chevron"/></svg></button><form id="loginForm"><input type="hidden" name="email"><label>Senha<div class="auth-password"><input type="password" name="password" placeholder="••••••••" autocomplete="current-password" required minlength="6"><button class="show-pass" type="button" aria-label="Mostrar senha"><svg><use href="#i-eye"/></svg></button></div></label><button type="button" class="auth-inline-link" data-account-help>Esqueceu a senha?</button><div class="auth-error"></div><div class="auth-actions"><button type="button" class="auth-text" id="loginBack">Voltar</button><button class="auth-primary">Entrar</button></div></form></div>
+      </div>
+      <div id="registerPane" class="auth-flow hidden">
+        <div class="auth-progress"><i class="active"></i><i></i><i></i></div>
+        <form id="registerForm">
+          <div class="auth-step" data-register-step="0"><h1>Vamos criar sua conta</h1><p>Como podemos te chamar?</p><label>Nome completo<input name="name" placeholder="Seu nome" autocomplete="name" required minlength="2"></label><div class="auth-error"></div><div class="auth-actions"><button type="button" class="auth-text" data-auth-help>Ajuda</button><button type="button" class="auth-primary" data-register-next>Avançar</button></div></div>
+          <div class="auth-step hidden" data-register-step="1"><h1>Qual é o seu e-mail?</h1><p>Ele será usado para entrar na sua conta</p><label>E-mail<input type="email" name="email" placeholder="voce@email.com" autocomplete="email" required></label><div class="auth-error"></div><div class="auth-actions"><button type="button" class="auth-text" data-register-back>Voltar</button><button type="button" class="auth-primary" data-register-next>Avançar</button></div></div>
+          <div class="auth-step hidden" data-register-step="2"><h1>Crie uma senha</h1><div class="identity-chip static"><b id="registerAvatar"></b><span id="registerEmailChip"></span></div><label>Senha<div class="auth-password"><input type="password" name="password" placeholder="Mínimo 8 caracteres" autocomplete="new-password" minlength="8" required><button class="show-pass" type="button" aria-label="Mostrar senha"><svg><use href="#i-eye"/></svg></button></div></label><div class="password-strength"><i></i><i></i><i></i><i></i></div><small id="passwordStrengthLabel">Digite uma senha</small><p class="terms-note">Ao continuar, você concorda com <button type="button" data-legal="terms">Termos de Uso</button> e <button type="button" data-legal="privacy">Política de Privacidade</button>.</p><div class="auth-error"></div><div class="auth-actions"><button type="button" class="auth-text" data-register-back>Voltar</button><button type="button" class="auth-primary" id="createAccountButton">Criar conta</button></div></div>
+        </form>
+        <div id="registerSuccess" class="auth-success hidden"><span><svg><use href="#i-check"/></svg></span><h1>Conta criada!</h1><p>Agora vamos cadastrar sua propriedade.</p><button class="auth-primary" id="startOnboarding">Começar</button></div>
+        <p class="auth-switch-line" id="signinLine">Já tem conta? <button data-auth="login">Entrar</button></p>
+      </div>
+    </article>
+    <div class="auth-footer"><img src="/logo.svg" alt=""><span>Hydra Agro</span></div>
+  </section>
+
+  <section id="onboardingView" class="onboarding-screen hidden">
+    <div class="property-setup-glow"></div><article class="property-setup-card"><header><img src="/logo.svg" alt="Hydra Agro"><div><small>CONFIGURAÇÃO INICIAL</small><h1>Conte sobre sua fazenda</h1><p>Esses dados deixam o painel, o clima e as metas do seu jeito.</p></div></header><div class="property-setup-progress"><span class="done">Conta</span><i></i><span class="active">Fazenda</span><i></i><span>Painel</span></div>
+    <form id="farmForm" class="property-form">
+      <div class="property-section-title"><span><svg><use href="#i-home"/></svg></span><div><strong>Identificação</strong><small>Como sua propriedade aparecerá no aplicativo</small></div></div>
+      <label class="property-field full"><span>Nome da propriedade</span><div><svg><use href="#i-home"/></svg><input name="name" placeholder="Ex.: Fazenda Boa Vista" required minlength="2"></div></label>
+      <label class="property-field"><span>Cidade</span><div><svg><use href="#i-location"/></svg><input name="city" list="bahiaCities" autocomplete="address-level2" placeholder="Digite uma cidade da Bahia" required minlength="2"></div></label>
+      <label class="property-field"><span>UF</span><div><svg><use href="#i-location"/></svg><input name="state" value="BA" readonly required></div></label>
+      <div class="property-section-title full"><span><svg><use href="#i-leaf"/></svg></span><div><strong>Produção e metas</strong><small>Informações usadas nos indicadores da fazenda</small></div></div>
+      <label class="property-field"><span>Área em hectares</span><div><svg><use href="#i-leaf"/></svg><input type="number" name="area" min="0" step="0.1" placeholder="Ex.: 250"></div></label>
+      <label class="property-field"><span>Meta diária de água</span><div><svg><use href="#i-drop"/></svg><input type="number" name="water_goal" min="1" value="3500" required><b>L</b></div></label>
+      <label class="property-field full"><span>Atividade principal</span><div><svg><use href="#i-leaf"/></svg><select name="activity"><option>Pecuária e agricultura</option><option>Pecuária</option><option>Agricultura</option><option>Cacauicultura</option><option>Agricultura familiar</option></select></div></label>
+      <div class="form-error full"></div><button class="property-save-button full" type="submit"><span>Salvar e abrir minha fazenda</span><svg><use href="#i-arrow"/></svg></button>
+    </form></article>
+  </section>
+
+  <section id="appView" class="app-screen hidden">
+    <main id="pageRoot"></main>
+    <nav class="bottom-nav">
+      <button data-route="dashboard" class="active"><svg><use href="#i-home"/></svg><span>Início</span></button>
+      <button data-route="community"><svg><use href="#i-users"/></svg><span>Comunidade</span></button>
+      <button data-action="create" class="create-button"><svg><use href="#i-plus"/></svg></button>
+      <button data-route="challenges"><svg><use href="#i-trophy"/></svg><span>Desafios</span></button>
+      <button data-route="profile"><svg><use href="#i-user"/></svg><span>Perfil</span></button>
+    </nav>
+  </section>
+
+  <datalist id="bahiaCities"></datalist>
+  <dialog id="authDialog" class="auth-dialog"><div><button type="button" data-auth-dialog-close aria-label="Fechar"><svg><use href="#i-close"/></svg></button><img src="/logo.svg" alt=""><small id="authDialogLabel">HYDRA AGRO</small><h2 id="authDialogTitle">Ajuda e suporte</h2><div id="authDialogBody"></div></div></dialog>
+  <div id="toast" class="toast"><b>✓</b><span></span></div>
+  <dialog id="appModal" class="modal"><header><div><small id="modalLabel"></small><h2 id="modalTitle"></h2></div><button data-close><svg><use href="#i-close"/></svg></button></header><div id="modalBody"></div></dialog>
+  <script src="/runtime-config.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name":"Hydra Agro",
+  "short_name":"Hydra Agro",
+  "description":"Tecnologia que cuida do campo.",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#FAF8F1",
+  "theme_color":"#0B5136",
+  "orientation":"portrait",
+  "icons":[
+    {"src":"/assets/app-icon.png","sizes":"1024x1024","type":"image/png","purpose":"any maskable"},
+    {"src":"/logo.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}
+  ]
+}
